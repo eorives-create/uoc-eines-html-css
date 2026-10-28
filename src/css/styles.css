@@ -35,9 +35,31 @@ p { margin: 0 0 1rem; }
   font-weight: bold;
 }
 .skip-link:focus { top: 1rem; }
-.site-header { border-bottom: 1px solid #c5bcae; }
+.site-header {
+  border-top: 3px solid #833c43;
+  border-bottom: 1px solid #c5bcae;
+}
 .header-inner { padding: 1.7rem 0; }
-.brand { color: #292622; font-size: 1.25rem; font-weight: 700; text-decoration: none; }
+.brand {
+  display: inline-block;
+  position: relative;
+  padding-left: 1.6rem;
+  color: #292622;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.brand::before {
+  content: "";
+  position: absolute;
+  top: 0.45rem;
+  left: 0;
+  width: 1rem;
+  height: 1rem;
+  background: #833c43;
+  border-radius: 50%;
+}
 .brand-note { display: block; margin-top: 0.15rem; color: #655b50; font-size: 0.75rem; font-weight: 400; }
 .nav-list { display: flex; flex-wrap: wrap; margin: 1.25rem 0 0; padding: 0; list-style: none; }
 .nav-list li { margin-right: 1.4rem; }
