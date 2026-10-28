@@ -18,7 +18,7 @@ input.addEventListener('input', () => {
   if (total === 0) {
     status.textContent = 'No s’ha trobat cap dolç. Prova amb dorayaki o daifuku.';
   } else if (total === 1) {
-    status.textContent = 'Es mostra 1 dolç.';
+    status.textContent = 'Es mostra només 1 dolç.';
   } else {
     status.textContent = 'Es mostren ' + total + ' dolços.';
   }
