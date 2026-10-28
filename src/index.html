@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Coneix el dorayaki i el daifuku, dos dolços japonesos amb ingredients i textures diferents.">
+  <title>Inici · Dolços del Japó</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <include src="src/partials/header.html" locals='{"inici": "page", "categoria": "false", "fonts": "false"}'></include>
+  <main id="contingut" class="container" tabindex="-1">
+    <section class="hero" aria-labelledby="titol-portada">
+      <div class="hero-copy">
+        <h1 id="titol-portada">Dorayaki i daifuku</h1>
+        <p class="lead">El dorayaki uneix dues peces de massa amb anko. El daifuku embolcalla el farciment amb mochi. Coneix aquests dos dolços i algunes de les seves variants.</p>
+        <a class="button" href="/categoria">Descobreix els dolços <span class="bi bi-arrow-right" aria-hidden="true"></span></a>
+      </div>
+      <figure class="hero-photo">
+        <img src="./img/dorayaki-matcha.jpg" alt="Unes mans sostenen un dorayaki obert amb farciment de matxa i mongeta vermella" width="3488" height="3289">
+        <figcaption>Dorayaki amb matxa i anko. Fotografia de Gu Ko.</figcaption>
+      </figure>
+    </section>
+
+    <section class="section" aria-labelledby="dos-dolcos">
+      <div class="section-heading">
+        <h2 id="dos-dolcos">Comencem per dos clàssics</h2>
+      </div>
+      <div class="sweet-list">
+        <article class="sweet-card">
+          <img src="./img/dorayaki-matcha.jpg" alt="Dorayaki amb farciment de matxa i anko" width="3488" height="3289">
+          <div class="card-copy">
+            <h3><a href="/det1">Dorayaki</a></h3>
+            <p>L’anko, una pasta dolça de mongetes, és el seu farciment tradicional.</p>
+          </div>
+        </article>
+        <article class="sweet-card">
+          <img src="./img/daifuku.jpg" alt="Diversos daifuku blancs en un plat blau" width="1280" height="960">
+          <div class="card-copy">
+            <h3><a href="/det2">Daifuku</a></h3>
+            <p>La massa d’arròs embolcalla l’anko i dona forma a aquest dolç.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <aside class="source-note">
+      <h2>Pastisseria japonesa a Barcelona</h2>
+      <p>A Barcelona, la pastisseria Ochiai prepara dorayakis i daifuku amb diferents farciments. Pots consultar el catàleg i el reportatge de betevé a <a href="/links">fonts i crèdits</a>.</p>
+    </aside>
+  </main>
+  <include src="src/partials/footer.html"></include>
+</body>
+</html>

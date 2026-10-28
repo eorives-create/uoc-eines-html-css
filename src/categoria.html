@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explora el dorayaki i el daifuku i filtra la selecció pel nom del dolç.">
+  <title>Els dolços · Dolços del Japó</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script type="module" src="./js/categoria.js"></script>
+</head>
+<body>
+  <include src="src/partials/header.html" locals='{"inici": "false", "categoria": "page", "fonts": "false"}'></include>
+  <main id="contingut" class="container" tabindex="-1">
+    <div class="page-heading">
+      <h1>Dos dolços per començar</h1>
+      <p class="lead">Massa a la planxa o coberta de mochi. Tria un dolç per veure com es prepara i què porta a dins.</p>
+    </div>
+
+    <div class="filter" id="filtre" hidden>
+      <label for="nom-dolc"><span class="bi bi-search" aria-hidden="true"></span> Filtra pel nom del dolç</label>
+      <input id="nom-dolc" type="search" placeholder="Per exemple, dorayaki" aria-describedby="ajuda-filtre" autocomplete="off">
+      <p id="ajuda-filtre" class="small">El llistat canvia mentre escrius. Esborra el text per tornar a veure tots dos dolços.</p>
+      <p id="resultats" class="filter-status" role="status" aria-live="polite" aria-atomic="true">Es mostren 2 dolços.</p>
+    </div>
+
+    <div class="sweet-list category-list">
+      <article class="sweet-card" data-nom="dorayaki">
+        <img src="./img/dorayaki-matcha.jpg" alt="Dorayaki obert amb matxa i pasta de mongeta vermella" width="3488" height="3289">
+        <div class="card-copy">
+          <p class="eyebrow">Massa cuita a la planxa</p>
+          <h2><a href="/det1">Dorayaki</a></h2>
+          <p>Dues peces de massa amb un farciment dolç. A la fotografia, matxa i anko.</p>
+          <a class="text-link" href="/det1">Coneix el dorayaki <span class="bi bi-arrow-right" aria-hidden="true"></span></a>
+        </div>
+      </article>
+      <article class="sweet-card" data-nom="daifuku">
+        <img src="./img/daifuku.jpg" alt="Daifuku blancs amb la superfície empolsada en un plat blau" width="1280" height="960">
+        <div class="card-copy">
+          <p class="eyebrow">Coberta de mochi</p>
+          <h2><a href="/det2">Daifuku</a></h2>
+          <p>Una coberta de mochi que guarda el farciment. N’hi ha d’anko, de matxa i de maduixa.</p>
+          <a class="text-link" href="/det2">Coneix el daifuku <span class="bi bi-arrow-right" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+  <include src="src/partials/footer.html"></include>
+</body>
+</html>

@@ -1,0 +1,10 @@
+node_modules/
+.parcel-cache/
+dist/
+.netlify/
+.DS_Store
+._*
+*.log
+.env
+.env.*
+*.zip

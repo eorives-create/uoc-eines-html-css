@@ -1,0 +1,46 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+
+[[redirects]]
+  from = "/categoria"
+  to = "/categoria.html"
+  status = 200
+
+[[redirects]]
+  from = "/categoria/"
+  to = "/categoria.html"
+  status = 200
+
+[[redirects]]
+  from = "/det1"
+  to = "/det1.html"
+  status = 200
+
+[[redirects]]
+  from = "/det1/"
+  to = "/det1.html"
+  status = 200
+
+[[redirects]]
+  from = "/det2"
+  to = "/det2.html"
+  status = 200
+
+[[redirects]]
+  from = "/det2/"
+  to = "/det2.html"
+  status = 200
+
+[[redirects]]
+  from = "/links"
+  to = "/links.html"
+  status = 200
+
+[[redirects]]
+  from = "/links/"
+  to = "/links.html"
+  status = 200

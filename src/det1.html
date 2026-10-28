@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Què és el dorayaki, quins ingredients porta i com varien els seus farciments.">
+  <title>Dorayaki · Dolços del Japó</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script type="module" src="./js/galeria.js"></script>
+</head>
+<body>
+  <include src="src/partials/header.html" locals='{"inici": "false", "categoria": "false", "fonts": "false"}'></include>
+  <main id="contingut" class="container" tabindex="-1">
+    <nav class="breadcrumb" aria-label="Fil d’Ariadna"><a href="/categoria">Els dolços</a> / Dorayaki</nav>
+    <header class="detail-heading">
+      <p class="eyebrow">Massa cuita a la planxa</p>
+      <h1>Dorayaki</h1>
+      <p class="lead">Dues peces rodones, cuites a la planxa, amb una capa d’anko al mig. També n’hi ha de matxa i de xocolata.</p>
+    </header>
+    <figure class="detail-photo">
+      <img src="./img/dorayaki-matcha.jpg" alt="Una persona obre un dorayaki que deixa veure el farciment verd de matxa i el vermell d’anko" width="3488" height="3289">
+      <figcaption>Dorayaki amb matxa i anko. Gu Ko, Pexels.</figcaption>
+    </figure>
+    <div class="detail-body">
+      <section class="prose" aria-labelledby="que-es-dorayaki">
+        <h2 id="que-es-dorayaki">La massa i el farciment</h2>
+        <p>El dorayaki uneix dues peces circulars de massa amb un farciment al mig. El més tradicional és l’anko, una pasta dolça feta amb mongetes azuki.</p>
+        <p>Farina, ous, sucre i mel formen part de la massa. A l’obrador d’Ochiai també hi afegeixen rovells, sake i bicarbonat abans de coure-la a la planxa, tal com es veu al reportatge de betevé.</p>
+        <h2>Més enllà de l’anko</h2>
+        <p>A Ochiai també en preparen amb matxa i amb ganache de xocolata.</p>
+        <p class="source-reference">Fonts consultades <a href="https://shop.ochiaipastisseria.com/ca/dorayakis">Dorayakis, d’Ochiai</a> i <a href="https://beteve.cat/estils-de-vida/dorayakis-pastissets-takashi-ochiai/">el reportatge de betevé amb Ken Ochiai</a>.</p>
+      </section>
+      <aside class="fact-box" aria-labelledby="ingredients-dorayaki">
+        <h2 id="ingredients-dorayaki"><span class="bi bi-list-ul" aria-hidden="true"></span> Ingredients</h2>
+        <ul>
+          <li>Farina, ous i rovells</li>
+          <li>Sucre i mel</li>
+          <li>Sake i bicarbonat</li>
+          <li>Anko per al farciment tradicional</li>
+        </ul>
+      </aside>
+    </div>
+    <section class="media-section" aria-labelledby="galeria-dorayaki">
+      <h2 id="galeria-dorayaki">El dolç en imatges</h2>
+      <p class="small gallery-help" hidden>Selecciona una fotografia per ampliar-la. Pots passar-les amb les fletxes i tancar amb Esc.</p>
+      <div class="gallery">
+        <figure>
+          <img src="./img/dorayaki-tall.jpg" alt="Un ganivet talla un dorayaki sobre un plat blanc" width="5525" height="3929" loading="lazy">
+          <figcaption>Un dorayaki abans de separar-ne les meitats. Gu Ko.</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/dorayaki-matxa.jpg" alt="Dues meitats de dorayaki amb farciment verd de matxa sobre un plat" width="3999" height="5714" loading="lazy">
+          <figcaption>Una variant amb farciment de matxa. Gu Ko.</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/dorayaki-farciment.jpg" alt="Una mà sosté un tros de dorayaki amb matxa i al plat es veu una variant amb mongeta vermella" width="5684" height="3814" loading="lazy">
+          <figcaption>Diferents farciments al mateix plat. Gu Ko.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="media-section" aria-labelledby="video-dorayaki">
+      <h2 id="video-dorayaki">Dorayakis a la paella</h2>
+      <p class="prose">Sal + Pimienta prepara dorayakis farcits d’anko.</p>
+      <div class="video-frame">
+        <iframe src="https://www.youtube-nocookie.com/embed/tK1KU0deRqg?cc_load_policy=1&amp;cc_lang_pref=es&amp;hl=ca&amp;rel=0" title="Elaboració de dorayaki de Sal + Pimienta, en castellà" width="560" height="315" allow="encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <p class="small">Vídeo de <span lang="es">Sal + Pimienta</span> en castellà, amb subtítols automàtics. <a href="https://www.youtube.com/watch?v=tK1KU0deRqg">Obre la demostració de dorayaki a YouTube</a>.</p>
+      <div class="prose video-summary">
+        <h3>El moment de girar-los</h3>
+        <p>La massa es deixa reposar abans de passar-la a la paella. Quan hi surten bombolles, toca girar cada peça. Un cop cuites, s’ajunten de dues en dues amb anko al mig.</p>
+      </div>
+    </section>
+    <p class="next-detail"><a class="text-link" href="/det2">Continua amb el daifuku <span class="bi bi-arrow-right" aria-hidden="true"></span></a></p>
+  </main>
+  <include src="src/partials/footer.html"></include>
+</body>
+</html>

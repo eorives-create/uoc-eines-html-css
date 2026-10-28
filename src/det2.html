@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Coneix el daifuku, la coberta de mochi, el farciment d’anko i la variant de matxa.">
+  <title>Daifuku · Dolços del Japó</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script type="module" src="./js/galeria.js"></script>
+</head>
+<body>
+  <include src="src/partials/header.html" locals='{"inici": "false", "categoria": "false", "fonts": "false"}'></include>
+  <main id="contingut" class="container" tabindex="-1">
+    <nav class="breadcrumb" aria-label="Fil d’Ariadna"><a href="/categoria">Els dolços</a> / Daifuku</nav>
+    <header class="detail-heading">
+      <p class="eyebrow">Coberta de mochi</p>
+      <h1>Daifuku</h1>
+      <p class="lead">Una coberta de mochi amb un farciment dolç a dins. L’anko i la maduixa són dues de les opcions.</p>
+    </header>
+    <figure class="detail-photo">
+      <img src="./img/daifuku.jpg" alt="Diversos daifuku blancs de superfície empolsada, apilats sobre un plat blau" width="1280" height="960">
+      <figcaption>Daifuku de mochi blanc en un plat blau. Jaonun, Pixabay.</figcaption>
+    </figure>
+    <div class="detail-body">
+      <section class="prose" aria-labelledby="que-es-daifuku">
+        <h2 id="que-es-daifuku">El mochi i el farciment</h2>
+        <p>El daifuku porta una capa de mochi, feta amb farina d’arròs, que recobreix el farciment. A Ochiai en preparen amb anko, una pasta dolça de mongeta vermella.</p>
+        <p>També n’hi ha amb maduixa. Quan els talles, es veu la fruita al mig, sota la capa de mochi.</p>
+        <h2>La variant de matxa</h2>
+        <p>El de matxa d’Ochiai porta anko de mongeta blanca a dins. La matxa s’hi afegeix en pols per fora.</p>
+        <p class="source-reference">Fonts consultades <a href="https://shop.ochiaipastisseria.com/ca/wagashi/daifuku-anko">Daifuku Anko</a> i <a href="https://shop.ochiaipastisseria.com/ca/wagashi/daifuku-matcha">Daifuku Matcha</a>, de la pastisseria Ochiai.</p>
+      </section>
+      <aside class="fact-box" aria-labelledby="ingredients-daifuku">
+        <h2 id="ingredients-daifuku"><span class="bi bi-list-ul" aria-hidden="true"></span> Ingredients</h2>
+        <ul>
+          <li>Farina d’arròs per a la coberta</li>
+          <li>Pasta dolça de mongeta vermella a la versió d’anko</li>
+          <li>Anko de mongeta blanca i matxa a la versió de matxa</li>
+        </ul>
+      </aside>
+    </div>
+    <section class="media-section" aria-labelledby="galeria-daifuku">
+      <h2 id="galeria-daifuku">El dolç en imatges</h2>
+      <p class="small gallery-help" hidden>Selecciona una fotografia per ampliar-la. Pots passar-les amb les fletxes i tancar amb Esc.</p>
+      <div class="gallery">
+        <figure>
+          <img src="./img/daifuku-maduixa.jpg" alt="Daifuku tallat amb una maduixa al centre i una capa de pasta fosca sota la coberta blanca" width="1280" height="960" loading="lazy">
+          <figcaption>El tall deixa veure la maduixa i les capes del dolç. Jaonun.</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/daifuku-plat.jpg" alt="Un dolç de mochi obert amb una maduixa, presentat en un plat blau" width="6048" height="4024" loading="lazy">
+          <figcaption>Una altra presentació amb maduixa. Han Sen.</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/matxa-pols.jpg" alt="Un bol de matxa en pols al costat d’un batedor de bambú" width="5808" height="3872" loading="lazy">
+          <figcaption>Matxa en pols. Cup of Couple.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="media-section" aria-labelledby="video-daifuku">
+      <h2 id="video-daifuku">Daifuku amb maduixa</h2>
+      <p class="prose">Recetas Japonesas prepara un daifuku amb maduixa i anko, conegut com a ichigo daifuku.</p>
+      <div class="video-frame">
+        <iframe src="https://www.youtube-nocookie.com/embed/RlxA1rA7O4E?cc_load_policy=1&amp;cc_lang_pref=es&amp;hl=ca&amp;rel=0" title="Elaboració de daifuku de Recetas Japonesas, en castellà" width="560" height="315" allow="encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <p class="small">Vídeo de <span lang="es">Recetas Japonesas</span> en castellà, amb subtítols automàtics. <a href="https://www.youtube.com/watch?v=RlxA1rA7O4E">Obre la demostració de daifuku a YouTube</a>.</p>
+      <div class="prose video-summary">
+        <h3>Una maduixa al centre</h3>
+        <p>L’anko envolta la maduixa i el mochi cobreix el conjunt. La massa es cou al microones i es treballa amb midó perquè no s’enganxi. En ajuntar-ne les vores, la fruita queda tancada a dins.</p>
+      </div>
+    </section>
+    <p class="next-detail"><a class="text-link" href="/det1">Torna al dorayaki <span class="bi bi-arrow-right" aria-hidden="true"></span></a></p>
+  </main>
+  <include src="src/partials/footer.html"></include>
+</body>
+</html>
